@@ -45,7 +45,7 @@ app.get('/', function(request, response) {
 	console.log('rows'+rows);
         //response.send(['Hello World!!!! HOLA MUNDO!!!!', rows]);
 	response.send(['hello how are you?']);
-	console.log('code finished for req send');    
+	console.warn('code finished for req send');    
     });
 });
 
