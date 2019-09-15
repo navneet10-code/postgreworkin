@@ -42,8 +42,10 @@ app.get('/', function(request, response) {
             console.log('error: ', err);
             throw err;
         }
-        response.send(['Hello World!!!! HOLA MUNDO!!!!', rows]);
-	    console.log('rows',rows);
+	console.log('rows'+rows);
+        //response.send(['Hello World!!!! HOLA MUNDO!!!!', rows]);
+	response.send(['hello how are you?']);
+	console.log('code finished for req send');    
     });
 });
 
