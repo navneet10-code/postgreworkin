@@ -42,9 +42,9 @@ app.get('/', function(request, response) {
             console.log('error: ', err);
             throw err;
         }
-	console.log('rows'+rows);
+	console.log('rows',rows);
         //response.send(['Hello World!!!! HOLA MUNDO!!!!', rows]);
-	response.send(['hello how are you?']);
+	//response.send(['hello how are you?']);
 	console.warn('code finished for req send');    
     });
 });
